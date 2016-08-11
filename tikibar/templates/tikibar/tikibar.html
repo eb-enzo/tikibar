@@ -797,6 +797,10 @@ html {
     </div><!-- /.tikibasement -->
 
     <div class="tikibasement" id="tiki-analytics-actions">
+        <h2>Event Quality</h2>
+        <ul>
+            <li class="tiki-pair"><em>Event Quality Score</em> {{ tiki.event_quality_score }}</li>
+        </ul>
         <h2>Analytics Actions</h2>
         <ul>
         {% for action in tiki.analytics %}
